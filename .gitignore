@@ -1,0 +1,5 @@
+odoo_pg_pass
+odoo-web-data/
+odoo-db-data/
+__pycache__/
+*.pyc
