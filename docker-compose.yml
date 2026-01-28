@@ -10,7 +10,7 @@ services:
       - "8069:8069"
       - "8072:8072"
     volumes:
-      - odoo-web-data:/var/lib/odoo
+      - ./odoo:/opt/odoo
       - ./config:/etc/odoo
       - ./addons:/mnt/extra-addons
     environment:
